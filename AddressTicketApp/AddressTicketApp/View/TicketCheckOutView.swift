@@ -20,12 +20,10 @@ class TicketCheckOutView: UIViewController {
         self.printButton.layer.borderWidth = 1
         // Do any additional setup after loading the view.
         
-//        if let value = UserDataManager.shared.defaults?.value(forKey: "checkOut") as? String {
-//            checkOutLabel.text = value
-//        }
     }
 
     @IBAction func tappedPrintButton(_ sender: UIButton) {
+        
         self.printAlert(title: "ATENÇÃO!!")
     }
     
@@ -36,4 +34,13 @@ class TicketCheckOutView: UIViewController {
         self.present(alertController, animated: true, completion: nil)
     }
 
+}
+
+extension TicketCheckOutView: EditViewControllerProtocol {
+    func tappedTicketButton(value: Address) {
+        print("-----TappedButton-----")
+    }
+    
+    
+    
 }

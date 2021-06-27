@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol EditViewControllerProtocol: AnyObject {
+    func tappedTicketButton(value: Address)
+}
+
 class EditViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var welcomeLabel: UILabel!
@@ -20,7 +24,13 @@ class EditViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var estadoTextField: UITextField!
     @IBOutlet weak var ticketButton: UIButton!
     
-    var label = "Bem vindo! Digite os dados abaixo para gerar sua etiqueta"
+    var label = "Bem vindo! Digite os dados abaixo para gerar sua etiqueta. Os campos obrigatórios estão preenchidos com um ASTERISCO(*)!"
+    
+    private var address: Address?
+    
+    weak var delegate: EditViewControllerProtocol?
+    
+    public var completionHandler: ((String?) -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +57,20 @@ class EditViewController: UIViewController, UITextFieldDelegate {
 
 
     @IBAction func tappedTicketButton(_ sender: UIButton) {
+        
+        if let endereco = self.address {
+            
+            self.delegate?.tappedTicketButton(value: endereco)
+        }
+        
+        completionHandler?(destinatarioTextField.text)
+        completionHandler?(cepTextField.text)
+        completionHandler?(enderecoTextField.text)
+        completionHandler?(numeroTextField.text)
+        completionHandler?(complementoTextField.text)
+        completionHandler?(bairroTextField.text)
+        completionHandler?(cidadeTextField.text)
+        completionHandler?(estadoTextField.text)
         
         if self.destinatarioTextField.validateDestinatario() ||
             self.cepTextField.validateCEP() ||

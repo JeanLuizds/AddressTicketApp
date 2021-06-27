@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         self.loginImageView.image = UIImage(named: "label")
         self.startButton.layer.cornerRadius = 5
         self.startButton.layer.borderWidth = 1
-
-
     }
 
     @IBAction func tappedStartButton(_ sender: UIButton) {
