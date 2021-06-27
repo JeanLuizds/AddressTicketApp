@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B495AA242688EA590024C1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA232688EA590024C1A9 /* AppDelegate.swift */; };
+		B495AA262688EA590024C1A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA252688EA590024C1A9 /* SceneDelegate.swift */; };
+		B495AA282688EA590024C1A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA272688EA590024C1A9 /* ViewController.swift */; };
+		B495AA2B2688EA590024C1A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B495AA292688EA590024C1A9 /* Main.storyboard */; };
+		B495AA2D2688EA5D0024C1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B495AA2C2688EA5D0024C1A9 /* Assets.xcassets */; };
+		B495AA302688EA5D0024C1A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B495AA2E2688EA5D0024C1A9 /* LaunchScreen.storyboard */; };
+		B495AA3B2688EA5D0024C1A9 /* AddressTicketAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA3A2688EA5D0024C1A9 /* AddressTicketAppTests.swift */; };
+		B495AA462688EA5D0024C1A9 /* AddressTicketAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA452688EA5D0024C1A9 /* AddressTicketAppUITests.swift */; };
+		B495AA552688EAA00024C1A9 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA542688EA9F0024C1A9 /* Address.swift */; };
+		B495AA592688ED1A0024C1A9 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA582688ED1A0024C1A9 /* EditViewController.swift */; };
+		B495AA5B2688EEFE0024C1A9 /* TicketCheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495AA5A2688EEFE0024C1A9 /* TicketCheckOutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B495AA372688EA5D0024C1A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B495AA182688EA590024C1A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B495AA1F2688EA590024C1A9;
+			remoteInfo = AddressTicketApp;
+		};
+		B495AA422688EA5D0024C1A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B495AA182688EA590024C1A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B495AA1F2688EA590024C1A9;
+			remoteInfo = AddressTicketApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B495AA202688EA590024C1A9 /* AddressTicketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressTicketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B495AA232688EA590024C1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B495AA252688EA590024C1A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B495AA272688EA590024C1A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B495AA2A2688EA590024C1A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B495AA2C2688EA5D0024C1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B495AA2F2688EA5D0024C1A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B495AA312688EA5D0024C1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B495AA362688EA5D0024C1A9 /* AddressTicketAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressTicketAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B495AA3A2688EA5D0024C1A9 /* AddressTicketAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTicketAppTests.swift; sourceTree = "<group>"; };
+		B495AA3C2688EA5D0024C1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B495AA412688EA5D0024C1A9 /* AddressTicketAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressTicketAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B495AA452688EA5D0024C1A9 /* AddressTicketAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTicketAppUITests.swift; sourceTree = "<group>"; };
+		B495AA472688EA5D0024C1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B495AA542688EA9F0024C1A9 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B495AA582688ED1A0024C1A9 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		B495AA5A2688EEFE0024C1A9 /* TicketCheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCheckOutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B495AA1D2688EA590024C1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B495AA332688EA5D0024C1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B495AA3E2688EA5D0024C1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B495AA172688EA590024C1A9 = {
+			isa = PBXGroup;
+			children = (
+				B495AA222688EA590024C1A9 /* AddressTicketApp */,
+				B495AA392688EA5D0024C1A9 /* AddressTicketAppTests */,
+				B495AA442688EA5D0024C1A9 /* AddressTicketAppUITests */,
+				B495AA212688EA590024C1A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B495AA212688EA590024C1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B495AA202688EA590024C1A9 /* AddressTicketApp.app */,
+				B495AA362688EA5D0024C1A9 /* AddressTicketAppTests.xctest */,
+				B495AA412688EA5D0024C1A9 /* AddressTicketAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B495AA222688EA590024C1A9 /* AddressTicketApp */ = {
+			isa = PBXGroup;
+			children = (
+				B495AA572688EAB30024C1A9 /* ViewModel */,
+				B495AA562688EAA50024C1A9 /* View */,
+				B495AA532688EA910024C1A9 /* Model */,
+				B495AA232688EA590024C1A9 /* AppDelegate.swift */,
+				B495AA252688EA590024C1A9 /* SceneDelegate.swift */,
+				B495AA2C2688EA5D0024C1A9 /* Assets.xcassets */,
+				B495AA2E2688EA5D0024C1A9 /* LaunchScreen.storyboard */,
+				B495AA312688EA5D0024C1A9 /* Info.plist */,
+			);
+			path = AddressTicketApp;
+			sourceTree = "<group>";
+		};
+		B495AA392688EA5D0024C1A9 /* AddressTicketAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B495AA3A2688EA5D0024C1A9 /* AddressTicketAppTests.swift */,
+				B495AA3C2688EA5D0024C1A9 /* Info.plist */,
+			);
+			path = AddressTicketAppTests;
+			sourceTree = "<group>";
+		};
+		B495AA442688EA5D0024C1A9 /* AddressTicketAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B495AA452688EA5D0024C1A9 /* AddressTicketAppUITests.swift */,
+				B495AA472688EA5D0024C1A9 /* Info.plist */,
+			);
+			path = AddressTicketAppUITests;
+			sourceTree = "<group>";
+		};
+		B495AA532688EA910024C1A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B495AA542688EA9F0024C1A9 /* Address.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B495AA562688EAA50024C1A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B495AA292688EA590024C1A9 /* Main.storyboard */,
+				B495AA272688EA590024C1A9 /* ViewController.swift */,
+				B495AA582688ED1A0024C1A9 /* EditViewController.swift */,
+				B495AA5A2688EEFE0024C1A9 /* TicketCheckOutView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B495AA572688EAB30024C1A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B495AA1F2688EA590024C1A9 /* AddressTicketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B495AA4A2688EA5D0024C1A9 /* Build configuration list for PBXNativeTarget "AddressTicketApp" */;
+			buildPhases = (
+				B495AA1C2688EA590024C1A9 /* Sources */,
+				B495AA1D2688EA590024C1A9 /* Frameworks */,
+				B495AA1E2688EA590024C1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressTicketApp;
+			productName = AddressTicketApp;
+			productReference = B495AA202688EA590024C1A9 /* AddressTicketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B495AA352688EA5D0024C1A9 /* AddressTicketAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B495AA4D2688EA5D0024C1A9 /* Build configuration list for PBXNativeTarget "AddressTicketAppTests" */;
+			buildPhases = (
+				B495AA322688EA5D0024C1A9 /* Sources */,
+				B495AA332688EA5D0024C1A9 /* Frameworks */,
+				B495AA342688EA5D0024C1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B495AA382688EA5D0024C1A9 /* PBXTargetDependency */,
+			);
+			name = AddressTicketAppTests;
+			productName = AddressTicketAppTests;
+			productReference = B495AA362688EA5D0024C1A9 /* AddressTicketAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B495AA402688EA5D0024C1A9 /* AddressTicketAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B495AA502688EA5D0024C1A9 /* Build configuration list for PBXNativeTarget "AddressTicketAppUITests" */;
+			buildPhases = (
+				B495AA3D2688EA5D0024C1A9 /* Sources */,
+				B495AA3E2688EA5D0024C1A9 /* Frameworks */,
+				B495AA3F2688EA5D0024C1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B495AA432688EA5D0024C1A9 /* PBXTargetDependency */,
+			);
+			name = AddressTicketAppUITests;
+			productName = AddressTicketAppUITests;
+			productReference = B495AA412688EA5D0024C1A9 /* AddressTicketAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B495AA182688EA590024C1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B495AA1F2688EA590024C1A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B495AA352688EA5D0024C1A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B495AA1F2688EA590024C1A9;
+					};
+					B495AA402688EA5D0024C1A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B495AA1F2688EA590024C1A9;
+					};
+				};
+			};
+			buildConfigurationList = B495AA1B2688EA590024C1A9 /* Build configuration list for PBXProject "AddressTicketApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B495AA172688EA590024C1A9;
+			productRefGroup = B495AA212688EA590024C1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B495AA1F2688EA590024C1A9 /* AddressTicketApp */,
+				B495AA352688EA5D0024C1A9 /* AddressTicketAppTests */,
+				B495AA402688EA5D0024C1A9 /* AddressTicketAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B495AA1E2688EA590024C1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B495AA302688EA5D0024C1A9 /* LaunchScreen.storyboard in Resources */,
+				B495AA2D2688EA5D0024C1A9 /* Assets.xcassets in Resources */,
+				B495AA2B2688EA590024C1A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B495AA342688EA5D0024C1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B495AA3F2688EA5D0024C1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B495AA1C2688EA590024C1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B495AA592688ED1A0024C1A9 /* EditViewController.swift in Sources */,
+				B495AA282688EA590024C1A9 /* ViewController.swift in Sources */,
+				B495AA5B2688EEFE0024C1A9 /* TicketCheckOutView.swift in Sources */,
+				B495AA242688EA590024C1A9 /* AppDelegate.swift in Sources */,
+				B495AA552688EAA00024C1A9 /* Address.swift in Sources */,
+				B495AA262688EA590024C1A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B495AA322688EA5D0024C1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B495AA3B2688EA5D0024C1A9 /* AddressTicketAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B495AA3D2688EA5D0024C1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B495AA462688EA5D0024C1A9 /* AddressTicketAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B495AA382688EA5D0024C1A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B495AA1F2688EA590024C1A9 /* AddressTicketApp */;
+			targetProxy = B495AA372688EA5D0024C1A9 /* PBXContainerItemProxy */;
+		};
+		B495AA432688EA5D0024C1A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B495AA1F2688EA590024C1A9 /* AddressTicketApp */;
+			targetProxy = B495AA422688EA5D0024C1A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B495AA292688EA590024C1A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B495AA2A2688EA590024C1A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B495AA2E2688EA5D0024C1A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B495AA2F2688EA5D0024C1A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B495AA482688EA5D0024C1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B495AA492688EA5D0024C1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B495AA4B2688EA5D0024C1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS322S4GSA;
+				INFOPLIST_FILE = AddressTicketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AddressTicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B495AA4C2688EA5D0024C1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS322S4GSA;
+				INFOPLIST_FILE = AddressTicketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AddressTicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B495AA4E2688EA5D0024C1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS322S4GSA;
+				INFOPLIST_FILE = AddressTicketAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AddressTicketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressTicketApp.app/AddressTicketApp";
+			};
+			name = Debug;
+		};
+		B495AA4F2688EA5D0024C1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS322S4GSA;
+				INFOPLIST_FILE = AddressTicketAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AddressTicketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressTicketApp.app/AddressTicketApp";
+			};
+			name = Release;
+		};
+		B495AA512688EA5D0024C1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS322S4GSA;
+				INFOPLIST_FILE = AddressTicketAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AddressTicketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressTicketApp;
+			};
+			name = Debug;
+		};
+		B495AA522688EA5D0024C1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS322S4GSA;
+				INFOPLIST_FILE = AddressTicketAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AddressTicketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressTicketApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B495AA1B2688EA590024C1A9 /* Build configuration list for PBXProject "AddressTicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B495AA482688EA5D0024C1A9 /* Debug */,
+				B495AA492688EA5D0024C1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B495AA4A2688EA5D0024C1A9 /* Build configuration list for PBXNativeTarget "AddressTicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B495AA4B2688EA5D0024C1A9 /* Debug */,
+				B495AA4C2688EA5D0024C1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B495AA4D2688EA5D0024C1A9 /* Build configuration list for PBXNativeTarget "AddressTicketAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B495AA4E2688EA5D0024C1A9 /* Debug */,
+				B495AA4F2688EA5D0024C1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B495AA502688EA5D0024C1A9 /* Build configuration list for PBXNativeTarget "AddressTicketAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B495AA512688EA5D0024C1A9 /* Debug */,
+				B495AA522688EA5D0024C1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B495AA182688EA590024C1A9 /* Project object */;
+}
