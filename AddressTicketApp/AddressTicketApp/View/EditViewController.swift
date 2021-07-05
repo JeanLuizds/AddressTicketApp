@@ -52,15 +52,21 @@ class EditViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func tappedTicketButton(_ sender: UIButton) {
         
-        if self.destinatarioTextField.validateDestinatario() ||
-            self.cepTextField.validateCEP() ||
-            self.enderecoTextField.validateEndereco() ||
-            self.numeroTextField.validateNumero() ||
-            self.bairroTextField.validateBairro() ||
-            self.cidadeTextField.validateCidade() ||
-            self.estadoTextField.validateEstado() {
+        if self.destinatarioTextField.validateDestinatario() {
             self.doneAlert()
-        }else{
+        } else if self.cepTextField.validateCEP() {
+            self.doneAlert()
+        } else if self.enderecoTextField.validateEndereco() {
+            self.doneAlert()
+        } else if self.numeroTextField.validateNumero() {
+            self.doneAlert()
+        } else if self.bairroTextField.validateBairro() {
+            self.doneAlert()
+        } else if self.cidadeTextField.validateCidade() {
+            self.doneAlert()
+        } else if self.estadoTextField.validateEstado() {
+            self.doneAlert()
+        } else {
             self.showAlert(title: "Preencha todos os campos acima!")
         }
     }
@@ -173,6 +179,13 @@ extension EditViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let vc: TicketCheckOutView = segue.destination as! TicketCheckOutView
-        vc.receivedData = destinatarioTextField.text!
+        vc.receivedDataDestinatario = destinatarioTextField.text!
+        vc.receivedDataCep = cepTextField.text!
+        vc.receivedDataEndereco = enderecoTextField.text!
+        vc.receivedDataNumero = numeroTextField.text!
+        vc.receivedDataComplemento = complementoTextField.text!
+        vc.receivedDataBairro = bairroTextField.text!
+        vc.receivedDataCidade = cidadeTextField.text!
+        vc.receivedDataEstado = estadoTextField.text!
     }
 }

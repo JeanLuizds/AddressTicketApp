@@ -11,8 +11,22 @@ class TicketCheckOutView: UIViewController {
 
     @IBOutlet weak var checkOutLabel: UILabel!
     @IBOutlet weak var printButton: UIButton!
+    @IBOutlet weak var checkOutLabel2: UILabel!
+    @IBOutlet weak var checkOutLabel3: UILabel!
+    @IBOutlet weak var checkOutLabel4: UILabel!
+    @IBOutlet weak var checkOutLabel5: UILabel!
+    @IBOutlet weak var checkOutLabel6: UILabel!
+    @IBOutlet weak var checkOutLabel7: UILabel!
+    @IBOutlet weak var checkOutLabel8: UILabel!
     
-    var receivedData = String()
+    var receivedDataDestinatario = String()
+    var receivedDataCep = String()
+    var receivedDataEndereco = String()
+    var receivedDataNumero = String()
+    var receivedDataComplemento = String()
+    var receivedDataBairro = String()
+    var receivedDataCidade = String()
+    var receivedDataEstado = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +35,14 @@ class TicketCheckOutView: UIViewController {
         self.printButton.layer.cornerRadius = 5
         self.printButton.layer.borderWidth = 1
         
-        self.checkOutLabel.text = self.receivedData
+        self.checkOutLabel.text = self.receivedDataDestinatario
+        self.checkOutLabel2.text = self.receivedDataCep
+        self.checkOutLabel3.text = self.receivedDataEndereco
+        self.checkOutLabel4.text = self.receivedDataNumero
+        self.checkOutLabel5.text = self.receivedDataComplemento
+        self.checkOutLabel6.text = self.receivedDataBairro
+        self.checkOutLabel7.text = self.receivedDataCidade
+        self.checkOutLabel8.text = self.receivedDataEstado
         // Do any additional setup after loading the view.
         
     }

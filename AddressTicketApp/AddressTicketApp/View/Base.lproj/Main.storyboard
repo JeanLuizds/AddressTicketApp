@@ -186,22 +186,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrE-Dh-tDb">
-                                <rect key="frame" x="20" y="127" width="374" height="286"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="286" id="IRx-vM-txo"/>
-                                    <constraint firstAttribute="width" constant="374" id="QD8-TV-uki"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrE-Dh-tDb">
+                                <rect key="frame" x="20" y="127" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcO-R7-yGw">
+                                <rect key="frame" x="20" y="153.5" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abP-Yi-NEO">
+                                <rect key="frame" x="20" y="180" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DN4-Et-clN">
+                                <rect key="frame" x="20" y="206.5" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfY-HJ-22B">
+                                <rect key="frame" x="20" y="233" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ok-Yf-Ndv">
+                                <rect key="frame" x="20" y="259.5" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RP-Dv-kql">
+                                <rect key="frame" x="20" y="286" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVD-3i-aPA">
+                                <rect key="frame" x="20" y="312.5" width="374" height="26.5"/>
                                 <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3i-BB-5vR">
-                                <rect key="frame" x="111" y="542" width="192" height="57"/>
+                                <rect key="frame" x="111" y="502" width="192" height="57"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="192" id="pUy-bz-DEL"/>
-                                    <constraint firstAttribute="height" constant="57" id="wLy-yu-fBt"/>
+                                    <constraint firstAttribute="height" constant="57" id="SOS-JP-qsU"/>
+                                    <constraint firstAttribute="width" constant="192" id="U2c-kF-6he"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
                                 <state key="normal" title="Imprimir">
@@ -215,16 +253,44 @@
                         <viewLayoutGuide key="safeArea" id="Giw-UH-d7W"/>
                         <color key="backgroundColor" red="0.14067202810000001" green="0.15670770410000001" blue="0.16923028230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="IrE-Dh-tDb" secondAttribute="trailing" constant="20" id="3oX-WA-Q3R"/>
-                            <constraint firstItem="IrE-Dh-tDb" firstAttribute="top" secondItem="Giw-UH-d7W" secondAttribute="top" constant="127" id="L5u-3J-Rp6"/>
-                            <constraint firstItem="s3i-BB-5vR" firstAttribute="top" secondItem="IrE-Dh-tDb" secondAttribute="bottom" constant="129" id="Oyj-ae-1fZ"/>
-                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="s3i-BB-5vR" secondAttribute="trailing" constant="111" id="VuH-xC-bJd"/>
-                            <constraint firstItem="IrE-Dh-tDb" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="lNx-C5-r9Z"/>
-                            <constraint firstItem="s3i-BB-5vR" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="111" id="wlt-bY-kDs"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="DN4-Et-clN" secondAttribute="trailing" constant="20" id="09L-Gv-Q3t"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="abP-Yi-NEO" secondAttribute="trailing" constant="20" id="15Q-7w-077"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="LVD-3i-aPA" secondAttribute="trailing" constant="20" id="1EN-zY-aRP"/>
+                            <constraint firstItem="sfY-HJ-22B" firstAttribute="top" secondItem="DN4-Et-clN" secondAttribute="bottom" id="1MW-Yo-wkP"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="s3i-BB-5vR" secondAttribute="trailing" constant="111" id="2Bf-fP-2rJ"/>
+                            <constraint firstItem="sfY-HJ-22B" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="3sJ-2n-Bmg"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="WcO-R7-yGw" secondAttribute="trailing" constant="20" id="F43-9W-f60"/>
+                            <constraint firstItem="WcO-R7-yGw" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="GFX-Bo-eJb"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="8Ok-Yf-Ndv" secondAttribute="trailing" constant="20" id="Jik-X5-Td2"/>
+                            <constraint firstItem="s3i-BB-5vR" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="111" id="KeC-hf-LJm"/>
+                            <constraint firstItem="5RP-Dv-kql" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="LBe-3w-FSc"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="sfY-HJ-22B" secondAttribute="trailing" constant="20" id="Q0s-o1-N1V"/>
+                            <constraint firstItem="WcO-R7-yGw" firstAttribute="top" secondItem="IrE-Dh-tDb" secondAttribute="bottom" id="QBh-Gu-NQM"/>
+                            <constraint firstItem="abP-Yi-NEO" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="SNz-pC-LGf"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="5RP-Dv-kql" secondAttribute="trailing" constant="20" id="Wbx-F2-wgd"/>
+                            <constraint firstItem="5RP-Dv-kql" firstAttribute="top" secondItem="8Ok-Yf-Ndv" secondAttribute="bottom" id="Wc8-tN-251"/>
+                            <constraint firstItem="IrE-Dh-tDb" firstAttribute="top" secondItem="Giw-UH-d7W" secondAttribute="top" constant="127" id="XCs-su-Vhb"/>
+                            <constraint firstItem="8Ok-Yf-Ndv" firstAttribute="top" secondItem="sfY-HJ-22B" secondAttribute="bottom" id="Yky-5u-ZAv"/>
+                            <constraint firstItem="8Ok-Yf-Ndv" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="e0K-6n-3f8"/>
+                            <constraint firstItem="DN4-Et-clN" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="iLq-66-98R"/>
+                            <constraint firstItem="DN4-Et-clN" firstAttribute="top" secondItem="abP-Yi-NEO" secondAttribute="bottom" id="lP4-2b-4pO"/>
+                            <constraint firstItem="IrE-Dh-tDb" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="liT-zs-JDR"/>
+                            <constraint firstItem="LVD-3i-aPA" firstAttribute="top" secondItem="5RP-Dv-kql" secondAttribute="bottom" id="sdc-UD-L7t"/>
+                            <constraint firstItem="s3i-BB-5vR" firstAttribute="top" secondItem="LVD-3i-aPA" secondAttribute="bottom" constant="163" id="tc7-UZ-vIp"/>
+                            <constraint firstItem="abP-Yi-NEO" firstAttribute="top" secondItem="WcO-R7-yGw" secondAttribute="bottom" id="vyT-f4-Kwe"/>
+                            <constraint firstItem="LVD-3i-aPA" firstAttribute="leading" secondItem="Giw-UH-d7W" secondAttribute="leading" constant="20" id="wUb-H8-ENm"/>
+                            <constraint firstItem="Giw-UH-d7W" firstAttribute="trailing" secondItem="IrE-Dh-tDb" secondAttribute="trailing" constant="20" id="zJO-Fj-WRT"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="checkOutLabel" destination="IrE-Dh-tDb" id="8V3-wB-ef4"/>
+                        <outlet property="checkOutLabel2" destination="WcO-R7-yGw" id="qd7-Bt-sZV"/>
+                        <outlet property="checkOutLabel3" destination="abP-Yi-NEO" id="fi4-Ac-SSP"/>
+                        <outlet property="checkOutLabel4" destination="DN4-Et-clN" id="Dhj-xV-wmn"/>
+                        <outlet property="checkOutLabel5" destination="sfY-HJ-22B" id="4vI-Ue-ayA"/>
+                        <outlet property="checkOutLabel6" destination="8Ok-Yf-Ndv" id="QwO-Zq-cel"/>
+                        <outlet property="checkOutLabel7" destination="5RP-Dv-kql" id="wvF-h0-KU3"/>
+                        <outlet property="checkOutLabel8" destination="LVD-3i-aPA" id="7kA-EQ-dDE"/>
                         <outlet property="printButton" destination="s3i-BB-5vR" id="Ead-zX-uCx"/>
                     </connections>
                 </viewController>
