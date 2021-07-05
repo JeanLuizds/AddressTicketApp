@@ -12,12 +12,16 @@ class TicketCheckOutView: UIViewController {
     @IBOutlet weak var checkOutLabel: UILabel!
     @IBOutlet weak var printButton: UIButton!
     
+    var receivedData = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.checkOutLabel.textColor = UIColor.white
         self.printButton.layer.cornerRadius = 5
         self.printButton.layer.borderWidth = 1
+        
+        self.checkOutLabel.text = self.receivedData
         // Do any additional setup after loading the view.
         
     }
@@ -34,13 +38,4 @@ class TicketCheckOutView: UIViewController {
         self.present(alertController, animated: true, completion: nil)
     }
 
-}
-
-extension TicketCheckOutView: EditViewControllerProtocol {
-    func tappedTicketButton(value: Address) {
-        print("-----TappedButton-----")
-    }
-    
-    
-    
 }
