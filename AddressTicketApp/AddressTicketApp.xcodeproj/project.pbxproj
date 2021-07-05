@@ -105,7 +105,6 @@
 		B495AA222688EA590024C1A9 /* AddressTicketApp */ = {
 			isa = PBXGroup;
 			children = (
-				B495AA572688EAB30024C1A9 /* ViewModel */,
 				B495AA562688EAA50024C1A9 /* View */,
 				B495AA532688EA910024C1A9 /* Model */,
 				B495AA232688EA590024C1A9 /* AppDelegate.swift */,
@@ -152,13 +151,6 @@
 				B495AA5A2688EEFE0024C1A9 /* TicketCheckOutView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B495AA572688EAB30024C1A9 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

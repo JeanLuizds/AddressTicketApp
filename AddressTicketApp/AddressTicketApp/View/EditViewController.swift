@@ -53,21 +53,21 @@ class EditViewController: UIViewController, UITextFieldDelegate {
     @IBAction func tappedTicketButton(_ sender: UIButton) {
         
         if self.destinatarioTextField.validateDestinatario() {
-            self.doneAlert()
+            doneAlert()
         } else if self.cepTextField.validateCEP() {
-            self.doneAlert()
+            doneAlert()
         } else if self.enderecoTextField.validateEndereco() {
-            self.doneAlert()
+            doneAlert()
         } else if self.numeroTextField.validateNumero() {
-            self.doneAlert()
+            doneAlert()
         } else if self.bairroTextField.validateBairro() {
-            self.doneAlert()
+            doneAlert()
         } else if self.cidadeTextField.validateCidade() {
-            self.doneAlert()
+            doneAlert()
         } else if self.estadoTextField.validateEstado() {
-            self.doneAlert()
+           doneAlert()
         } else {
-            self.showAlert(title: "Preencha todos os campos acima!")
+            showAlert(title: "Preencha todos os campos acima!")
         }
     }
     
@@ -83,7 +83,7 @@ class EditViewController: UIViewController, UITextFieldDelegate {
         let okButton = UIAlertAction(title: "OK", style: .default) { action -> Void in
             self.performSegue(withIdentifier: "checkOut", sender: nil)
             }
-        alertController.addAction(okButton)
+        alertController.addAction(okButton)   
         self.present(alertController, animated: true, completion: nil)
     }
     
